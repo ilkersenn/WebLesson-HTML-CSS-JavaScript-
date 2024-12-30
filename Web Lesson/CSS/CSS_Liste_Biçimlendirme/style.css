@@ -1,0 +1,24 @@
+ul{list-style-type: upper-roman; }
+li{
+	width: 300px;
+	margin: 5px;
+	padding: 5px;
+	font-family: Arial;
+	border-color: blue;
+	background-color: cyan;
+
+}
+
+h1{font-family: baskerville;
+	border-style: solid;
+	border-color: darkgray;
+	background: gray;
+	display: inline;
+}
+
+a{
+	border: red 5px;
+	font-size: 50px;
+	display: inline;
+}
+

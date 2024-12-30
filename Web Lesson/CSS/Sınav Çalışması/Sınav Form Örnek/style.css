@@ -1,0 +1,87 @@
+/*Genel Gövde Ayarları*/
+
+body{
+	font-family: arial, sans-serif;
+	margin: 20px;
+	background-color: #f9f9f9;
+	color: #333;
+}
+
+/*Başlık Stili*/
+
+h1{
+	text-align: center;
+	color: #4caf50;
+}
+
+/*Tablo Stili*/
+
+.exam-table{
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1) 
+}
+
+/*Tablo Başlık Stili*/
+
+.exam-table thead th{
+	background-color: #4caf50;
+	color: white;
+	padding: 10px;
+	text-align: left;
+}
+
+/*Tablo Hücre Stili*/
+
+.exam-table td{
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+/*Alternatif Satır Renklendirme*/
+
+.exam-table tbody tr:nht-child(odd){
+	background-color: #f2f2f2;
+}
+
+/*Input Alanlarının Stili*/
+
+.exam-table input[type="text"]{
+	width: 90%
+	padding: 8px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+/*Input Hover ve Focus*/
+
+.exam-table input[type="text"]:hover{
+	border-color: #4caf50;
+}
+
+.exam-table input[type="text"]:focus{
+	outline: none;
+	border-color: #4caf50;
+	box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/*Gönder Butonu Stili*/
+
+.submit-button{
+	display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.submit-button:hover{
+	background-color: #45a049;
+}
